@@ -101,7 +101,7 @@ function purchaseProducts() {
                         console.log("");
                     }
 
-                cost = parseFloat(((results[0].price) * response.numberOfUnits).toFixed(2));
+                cost += parseFloat(((results[0].price) * response.numberOfUnits).toFixed(2));
 
                 console.log("-------------------------------------------");
                 console.log("");
